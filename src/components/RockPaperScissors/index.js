@@ -104,7 +104,7 @@ class RockPaperScissors extends Component {
   }
 
   renderGameInProgressView = () => {
-    const {choicesList} = this.state
+    const {choicesList} = this.props
     return (
       <GameOptionsList>
         {choicesList.map(eachOption => (
